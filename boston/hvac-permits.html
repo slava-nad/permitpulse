@@ -13,10 +13,11 @@ footer{margin:40px 0 20px;font-size:.8rem;color:#666;border-top:1px solid #e3e6e
 <p class="note">How it works: we pull the city's official permit records, tag each permit as roofing, solar or HVAC using permit type and description keywords, and list the newest first. One permit can carry more than one tag.</p>
 <div class="box" id="signup"><h2>Get this list weekly by email</h2>
 <p>Free while we test: every Monday, new HVAC permits for Boston, MA, filtered by trade.</p>
-<form class="wl" name="waitlist" data-netlify="true" method="POST" action="#" data-unconfigured="1">
-<input type="email" name="email" required placeholder="you@company.com" aria-label="Email">
-<input type="hidden" name="city" value="boston"><input type="hidden" name="trade" value="hvac">
-<input type="hidden" name="intent" value="free_waitlist"><input type="hidden" name="page" value="">
+<iframe name="wl_sink" style="display:none"></iframe>
+<form class="wl" name="waitlist" method="POST" target="wl_sink" action="https://docs.google.com/forms/d/e/1FAIpQLScvYDm3IU0twI5-VslZ4IarxwpwhU462hPlauqOawnVKNUz9A/formResponse">
+<input type="email" name="entry.827880276" data-f="email" required placeholder="you@company.com" aria-label="Email">
+<input type="hidden" name="entry.1667648668" data-f="city" value="boston"><input type="hidden" name="entry.488095529" data-f="trade" value="hvac">
+<input type="hidden" name="entry.1321828251" data-f="intent" value="free_waitlist"><input type="hidden" name="entry.679603221" data-f="page" value="">
 <button type="submit">Join the free weekly list</button></form>
 <p style="margin-top:14px"><button class="alt" type="button" onclick="reserve()">Reserve the paid plan – $24/mo</button></p>
 <p class="note">Paid plan not live yet, no charge. Reserving just adds you to the list with a flag; we'll email you when it launches.</p>
@@ -28,21 +29,21 @@ footer{margin:40px 0 20px;font-size:.8rem;color:#666;border-top:1px solid #e3e6e
 <tr><td>1315 Commonwealth AV, Allston 02134</td><td>2026-10-27</td><td>Gas Permit / GAS</td><td>replace existing gas boiler with like kind Lochinvar AWH400</td><td class="v">$1,500</td></tr>
 <tr><td>75 Whitcomb AV, Jamaica Plain 02130</td><td>2026-10-20</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for Boiler/Water</td><td class="v">$350</td></tr>
 <tr><td>1 Beacon ST, Boston 02108</td><td>2026-10-16</td><td>Short Form Bldg Permit / INTREN</td><td>Interior renovation on the 16th floor of One Beacon St. The scope includes selective demolition, doors, frames &amp; hardware, glass &amp; glazing, drywall, tile, ACT, flooring, painting, specialties, HVAC and electrical.</td><td class="v">$246,007</td></tr>
-<tr><td>None, Jamaica Plain 02130</td><td>2026-10-16</td><td>Gas Permit / GAS</td><td>Gas fit for furnace that heats first floor right</td><td class="v">$350</td></tr>
-<tr><td>175-177 Hillside ST, Mission Hill 02120</td><td>2026-10-16</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
 <tr><td>None, Jamaica Plain 02130</td><td>2026-10-16</td><td>Gas Permit / GAS</td><td>Gas fit for furnace</td><td class="v">$350</td></tr>
-<tr><td>53 Greaton RD, West Roxbury 02132</td><td>2026-10-14</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for boiler</td><td class="v">$350</td></tr>
+<tr><td>175-177 Hillside ST, Mission Hill 02120</td><td>2026-10-16</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
+<tr><td>None, Jamaica Plain 02130</td><td>2026-10-16</td><td>Gas Permit / GAS</td><td>Gas fit for furnace that heats first floor right</td><td class="v">$350</td></tr>
 <tr><td>53 Greaton RD, West Roxbury 02132</td><td>2026-10-14</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
-<tr><td>75 Whitcomb AV, Jamaica Plain 02130</td><td>2026-10-14</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
+<tr><td>53 Greaton RD, West Roxbury 02132</td><td>2026-10-14</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for boiler</td><td class="v">$350</td></tr>
 <tr><td>55 Prince ST, Jamaica Plain 02130</td><td>2026-10-14</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,500</td></tr>
+<tr><td>75 Whitcomb AV, Jamaica Plain 02130</td><td>2026-10-14</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
 <tr><td>1 Federal ST, Boston 02110</td><td>2026-10-13</td><td>Long Form/Alteration Permit / FSTTRK</td><td>1 Federal St Floor 10- 14,423 SF Spec Office Space Suites as per plans, new FA,FS,HVAC, Framing, Dry Wall, flooring, ceilings, FF&amp;E. 
 All work in full compliance with 780 CMR, 527 CMR,521 CMR. 
 No Assembly Areas or Chang</td><td class="v">$1,086,024</td></tr>
-<tr><td>29 Buchanan RD, Roslindale 02132</td><td>2026-10-12</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for boiler</td><td class="v">$850</td></tr>
 <tr><td>29 Wachusett ST, Jamaica Plain 02130</td><td>2026-10-12</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for boiler</td><td class="v">$850</td></tr>
+<tr><td>29 Buchanan RD, Roslindale 02132</td><td>2026-10-12</td><td>Plumbing Permit / PLUMBING</td><td>Water piping for boiler</td><td class="v">$850</td></tr>
 <tr><td>29 Buchanan RD, Roslindale 02132</td><td>2026-10-12</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
-<tr><td>100 Colberg AV, Roslindale 02131</td><td>2026-10-12</td><td>Gas Permit / GAS</td><td>Gas fit for Furnace</td><td class="v">$350</td></tr>
 <tr><td>29 Wachusett ST, Jamaica Plain 02130</td><td>2026-10-12</td><td>Gas Permit / GAS</td><td>Boiler replacement</td><td class="v">$3,200</td></tr>
+<tr><td>100 Colberg AV, Roslindale 02131</td><td>2026-10-12</td><td>Gas Permit / GAS</td><td>Gas fit for Furnace</td><td class="v">$350</td></tr>
 <tr><td>333 Beacon ST, Boston 02116</td><td>2026-10-09</td><td>Short Form Bldg Permit / EXTREN</td><td>Remove existing rear walkway brick pavers, pour new condenser pad, rework subgrade to create positive pitch away from building and reset brick pavers sloped away from building foundation. Spot repoint masonry at rear of </td><td class="v">$44,949</td></tr>
 <tr><td>29 William Jackson AV, Brighton 02135</td><td>2026-10-08</td><td>Gas Permit / GAS</td><td>replacement of 105k btu gas boiler</td><td class="v">$10,000</td></tr>
 <tr><td>29 William Jackson AV, Brighton 02135</td><td>2026-10-08</td><td>Plumbing Permit / PLUMBING</td><td>replacement of boiler</td><td class="v">$10,000</td></tr>
@@ -53,9 +54,10 @@ No Assembly Areas or Chang</td><td class="v">$1,086,024</td></tr>
 <div class="box"><b>Source:</b> City of Boston – Inspectional Services Dept, &quot;Approved Building Permits&quot; dataset, Analyze Boston (data.boston.gov) – <a href="https://data.boston.gov/dataset/approved-building-permits">https://data.boston.gov/dataset/approved-building-permits</a>. Licence: <a href="https://opendatacommons.org/licenses/pddl/1-0/">Open Data Commons Public Domain Dedication and License (PDDL)</a>. Applicant names are omitted.
 Latest permit date in this pull: 2026-10-30.</div>
 <p>Other pages: <a href="../boston/roofing-permits.html">Roofing – Boston, MA</a> · <a href="../boston/solar-permits.html">Solar – Boston, MA</a> · <a href="../minneapolis/roofing-permits.html">Roofing – Minneapolis, MN</a> · <a href="../minneapolis/solar-permits.html">Solar – Minneapolis, MN</a> · <a href="../minneapolis/hvac-permits.html">HVAC – Minneapolis, MN</a></p><footer>PermitPulse republishes public records from official city open-data portals; it is not affiliated with any city. Data can lag, contain errors, and trade labels are assigned automatically by keyword. Verify with the city before acting. Updated 2026-10-31.</footer><script>
-function reserve(){const f=document.querySelector('form.wl');f.intent.value='reserve_24';
+function reserve(){const f=document.querySelector('form.wl');f.querySelector('[data-f=intent]').value='reserve_24';
 document.querySelector('.wl-msg').hidden=false;document.querySelector('.wl-msg').textContent='Reserve $24/mo: paid plan not live yet, no charge. Enter your email above and submit; we\'ll email you when it launches.';
-f.querySelector('button').textContent='Reserve (no charge)';f.email.focus();}
-document.querySelectorAll('form.wl').forEach(f=>{f.page.value=location.pathname;f.addEventListener('submit',e=>{
-if(f.dataset.unconfigured){e.preventDefault();alert('Signup is not connected yet (preview build).');}});});
+f.querySelector('button').textContent='Reserve (no charge)';f.querySelector('[data-f=email]').focus();}
+document.querySelectorAll('form.wl').forEach(f=>{f.querySelector('[data-f=page]').value=location.pathname;f.addEventListener('submit',e=>{
+if(f.dataset.unconfigured){e.preventDefault();alert('Signup is not connected yet (preview build).');return;}
+setTimeout(()=>{f.hidden=true;const m=f.parentNode.querySelector('.wl-msg');m.hidden=false;m.textContent=f.querySelector('[data-f=intent]').value==='reserve_24'?'Reserved. No charge: we will email you when the paid plan launches.':'Thanks! You are on the list. First digest arrives on a Monday.';},300);});});
 </script></body></html>
