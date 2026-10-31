@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://slava-nad.github.io/permitpulse/sitemap.xml

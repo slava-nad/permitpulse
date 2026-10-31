@@ -1,0 +1,22 @@
+{
+ "generated": "2026-10-31T16:03:30.565748",
+ "since": "2026-10-17",
+ "meta": {
+  "boston": {
+   "total": 237,
+   "latest": "2026-10-30"
+  },
+  "minneapolis": {
+   "total": 1952,
+   "latest": "2026-10-30"
+  }
+ },
+ "counts": {
+  "boston/roofing": 15,
+  "boston/solar": 8,
+  "boston/hvac": 27,
+  "minneapolis/roofing": 232,
+  "minneapolis/solar": 12,
+  "minneapolis/hvac": 454
+ }
+}
